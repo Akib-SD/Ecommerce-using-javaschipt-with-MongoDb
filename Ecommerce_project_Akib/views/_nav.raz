@@ -1,0 +1,15 @@
+ <nav class="nav">
+      <span class="brand">Baby Shop</span>
+      <ul>
+        <li><a href="/"><i class="bi bi-house-door"></i> Home</a></li>
+        <li><a href="/cart"><i class="bi bi-cart"></i> Cart</a></li>
+        @if(Model.authenticated){
+            <li><a href="/logout">Logout</a></li>
+        }
+        else
+        {
+            <li><a href="/register"><i class="bi bi-r-circle"></i> Register</a></li> 
+            <li><a href="/login"><i class="bi bi-person-circle"></i> Login</a></li> 
+        }
+      </ul>
+</nav>

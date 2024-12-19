@@ -1,0 +1,18 @@
+MongoBd url=https://www.mongodb.com/products/platform/atlas-database
+
+MongoBd singin
+------------------
+Email=aslakib420@gmail.com
+password= Aslakib12
+
+DatabseName= bstore
+
+Admin
+-------
+Username= admin
+password= 112233
+
+user
+-----
+Username= akib
+password= 123456
